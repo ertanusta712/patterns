@@ -1,0 +1,7 @@
+<?php
+$mysql = new MysqlConnection("test","test","test","test");
+
+$mongo = new MongoDBConnection(new MongoDB("test","test","test","test"));
+
+$mongo->select("test");
+$mysql->select("test");
